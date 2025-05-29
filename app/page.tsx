@@ -1,4 +1,5 @@
 import Image from "next/image";
+import winImg from "../public/window.svg";
 
 export default function Home() {
   return (
@@ -78,7 +79,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            // src="/window.svg"
+            src={winImg}
             alt="Window icon"
             width={16}
             height={16}
